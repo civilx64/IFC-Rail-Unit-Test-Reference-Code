@@ -1,0 +1,892 @@
+{
+  "type": "AlignmentConsistencyJSON",
+  "version": "1.0",
+  "meta": {
+    "name": "STN01_Sogelink.ifc",
+    "time": "2023-09-09 18:07:18"
+  },
+  "aggregatedData": {
+    "status": "failure",
+    "passed": "4 of 5 (80%)"
+  },
+  "data": {
+    "group_1": {
+      "name": "IFC schema validation issues",
+      "status": "success",
+      "passed": "5 of 5 (100%)",
+      "timeInMilliSeconds": "10",
+      "subGroup_1_1": {
+        "status": "success",
+        "name": "Mandatory attributes missing",
+        "values": [
+        ]
+      },
+      "subGroup_1_2": {
+        "status": "success",
+        "name": "REAL value derived issues",
+        "values": [
+        ]
+      },
+      "subGroup_1_3": {
+        "status": "success",
+        "name": "REAL value boundary issues",
+        "values": [
+        ]
+      },
+      "subGroup_1_4": {
+        "status": "success",
+        "name": "Incorrect ENUMERATION values",
+        "values": [
+        ]
+      },
+      "subGroup_1_5": {
+        "status": "success",
+        "name": "File schema definition",
+        "values": [
+        ]
+      }
+    },
+    "group_2": {
+      "name": "Alignment strucutre issues",
+      "status": "success",
+      "passed": "3 of 3 (100%)",
+      "timeInMilliSeconds": "10",
+      "subGroup_2_1": {
+        "status": "success",
+        "name": "Alignment horizontal issues",
+        "values": [
+        ]
+      },
+      "subGroup_2_2": {
+        "status": "success",
+        "name": "Alignment vertical issues",
+        "values": [
+        ]
+      },
+      "subGroup_2_3": {
+        "status": "success",
+        "name": "Alignment cant inconsistencies",
+        "values": [
+        ]
+      }
+    },
+    "group_3": {
+      "name": "Alignment continuity issues",
+      "status": "success",
+      "passed": "6 of 6 (100%)",
+      "timeInMilliSeconds": "10",
+      "subGroup_3_1": {
+        "status": "success",
+        "name": "Alignment horizontal continuity",
+        "values": [
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (horizontal segments),  *** 0.0000000046569767 *** #83 = IfcAlignmentSegment( .. ) - #91 = IfcAlignmentSegment( .. )",
+            [
+              83,
+              91
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (horizontal segments),  *** 0.0000000027963920 *** #91 = IfcAlignmentSegment( .. ) - #99 = IfcAlignmentSegment( .. )",
+            [
+              91,
+              99
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (horizontal segments),  *** 0.0000000056027708 *** #99 = IfcAlignmentSegment( .. ) - #107 = IfcAlignmentSegment( .. )",
+            [
+              99,
+              107
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (horizontal segments),  *** 0.0000000074689752 *** #107 = IfcAlignmentSegment( .. ) - #115 = IfcAlignmentSegment( .. )",
+            [
+              107,
+              115
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (horizontal segments),  *** 0.0000000055988387 *** #115 = IfcAlignmentSegment( .. ) - #123 = IfcAlignmentSegment( .. )",
+            [
+              115,
+              123
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (horizontal segments),  *** 0.0000000011301883 *** #123 = IfcAlignmentSegment( .. ) - #131 = IfcAlignmentSegment( .. )",
+            [
+              123,
+              131
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (horizontal segments),  *** 0.0000000027963920 *** #131 = IfcAlignmentSegment( .. ) - #139 = IfcAlignmentSegment( .. )",
+            [
+              131,
+              139
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (horizontal segments),  *** 0.0000000009331398 *** #139 = IfcAlignmentSegment( .. ) - #147 = IfcAlignmentSegment( .. )",
+            [
+              139,
+              147
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (horizontal segments),  *** 0.0000000056073044 *** #147 = IfcAlignmentSegment( .. ) - #155 = IfcAlignmentSegment( .. )",
+            [
+              147,
+              155
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (horizontal segments),  *** 0.0000000046569767 *** #83 = IfcAlignmentSegment( .. ) - #91 = IfcAlignmentSegment( .. )",
+            [
+              83,
+              91
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (horizontal segments),  *** 0.0000000027963920 *** #91 = IfcAlignmentSegment( .. ) - #99 = IfcAlignmentSegment( .. )",
+            [
+              91,
+              99
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (horizontal segments),  *** 0.0000000056027708 *** #99 = IfcAlignmentSegment( .. ) - #107 = IfcAlignmentSegment( .. )",
+            [
+              99,
+              107
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (horizontal segments),  *** 0.0000000074689752 *** #107 = IfcAlignmentSegment( .. ) - #115 = IfcAlignmentSegment( .. )",
+            [
+              107,
+              115
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (horizontal segments),  *** 0.0000000055988387 *** #115 = IfcAlignmentSegment( .. ) - #123 = IfcAlignmentSegment( .. )",
+            [
+              115,
+              123
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (horizontal segments),  *** 0.0000000011301883 *** #123 = IfcAlignmentSegment( .. ) - #131 = IfcAlignmentSegment( .. )",
+            [
+              123,
+              131
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (horizontal segments),  *** 0.0000000027963920 *** #131 = IfcAlignmentSegment( .. ) - #139 = IfcAlignmentSegment( .. )",
+            [
+              131,
+              139
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (horizontal segments),  *** 0.0000000009331398 *** #139 = IfcAlignmentSegment( .. ) - #147 = IfcAlignmentSegment( .. )",
+            [
+              139,
+              147
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (horizontal segments),  *** 0.0000000056073044 *** #147 = IfcAlignmentSegment( .. ) - #155 = IfcAlignmentSegment( .. )",
+            [
+              147,
+              155
+            ]
+          ]
+        ]
+      },
+      "subGroup_3_2": {
+        "status": "success",
+        "name": "Alignment vertical continuity",
+        "values": [
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (vertical segments),  *** 0.0000000000000000 *** #273 = IfcAlignmentSegment( .. ) - #284 = IfcAlignmentSegment( .. )",
+            [
+              273,
+              284
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (vertical segments),  *** 0.0000000000005460 *** #284 = IfcAlignmentSegment( .. ) - #295 = IfcAlignmentSegment( .. )",
+            [
+              284,
+              295
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (vertical segments),  *** 0.0000000000000298 *** #295 = IfcAlignmentSegment( .. ) - #306 = IfcAlignmentSegment( .. )",
+            [
+              295,
+              306
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (vertical segments),  *** 0.0000000000006234 *** #306 = IfcAlignmentSegment( .. ) - #317 = IfcAlignmentSegment( .. )",
+            [
+              306,
+              317
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (vertical segments),  *** 0.0000000000050302 *** #317 = IfcAlignmentSegment( .. ) - #328 = IfcAlignmentSegment( .. )",
+            [
+              317,
+              328
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (vertical segments),  *** 0.0000000000000000 *** #273 = IfcAlignmentSegment( .. ) - #284 = IfcAlignmentSegment( .. )",
+            [
+              273,
+              284
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (vertical segments),  *** 0.0000000000005460 *** #284 = IfcAlignmentSegment( .. ) - #295 = IfcAlignmentSegment( .. )",
+            [
+              284,
+              295
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (vertical segments),  *** 0.0000000000000298 *** #295 = IfcAlignmentSegment( .. ) - #306 = IfcAlignmentSegment( .. )",
+            [
+              295,
+              306
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (vertical segments),  *** 0.0000000000006234 *** #306 = IfcAlignmentSegment( .. ) - #317 = IfcAlignmentSegment( .. )",
+            [
+              306,
+              317
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (vertical segments),  *** 0.0000000000050302 *** #317 = IfcAlignmentSegment( .. ) - #328 = IfcAlignmentSegment( .. )",
+            [
+              317,
+              328
+            ]
+          ]
+        ]
+      },
+      "subGroup_3_3": {
+        "status": "success",
+        "name": "Alignment cant continuity",
+        "values": [
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (cant segments),  *** 0.0000000000000000 *** #412 = IfcAlignmentSegment( .. ) - #419 = IfcAlignmentSegment( .. )",
+            [
+              412,
+              419
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (cant segments),  *** 0.0000000000006253 *** #419 = IfcAlignmentSegment( .. ) - #426 = IfcAlignmentSegment( .. )",
+            [
+              419,
+              426
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (cant segments),  *** 0.0000000000000000 *** #426 = IfcAlignmentSegment( .. ) - #433 = IfcAlignmentSegment( .. )",
+            [
+              426,
+              433
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (cant segments),  *** 0.0000000000004547 *** #433 = IfcAlignmentSegment( .. ) - #440 = IfcAlignmentSegment( .. )",
+            [
+              433,
+              440
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (cant segments),  *** 0.0000000000005684 *** #440 = IfcAlignmentSegment( .. ) - #447 = IfcAlignmentSegment( .. )",
+            [
+              440,
+              447
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (cant segments),  *** 0.0000000000002274 *** #447 = IfcAlignmentSegment( .. ) - #454 = IfcAlignmentSegment( .. )",
+            [
+              447,
+              454
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (cant segments),  *** 0.0000000000000000 *** #454 = IfcAlignmentSegment( .. ) - #461 = IfcAlignmentSegment( .. )",
+            [
+              454,
+              461
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (cant segments),  *** 0.0000000000002274 *** #461 = IfcAlignmentSegment( .. ) - #468 = IfcAlignmentSegment( .. )",
+            [
+              461,
+              468
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (cant segments),  *** 0.0000000000000000 *** #412 = IfcAlignmentSegment( .. ) - #419 = IfcAlignmentSegment( .. )",
+            [
+              412,
+              419
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (cant segments),  *** 0.0000000000006253 *** #419 = IfcAlignmentSegment( .. ) - #426 = IfcAlignmentSegment( .. )",
+            [
+              419,
+              426
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (cant segments),  *** 0.0000000000000000 *** #426 = IfcAlignmentSegment( .. ) - #433 = IfcAlignmentSegment( .. )",
+            [
+              426,
+              433
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (cant segments),  *** 0.0000000000004547 *** #433 = IfcAlignmentSegment( .. ) - #440 = IfcAlignmentSegment( .. )",
+            [
+              433,
+              440
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (cant segments),  *** 0.0000000000005684 *** #440 = IfcAlignmentSegment( .. ) - #447 = IfcAlignmentSegment( .. )",
+            [
+              440,
+              447
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (cant segments),  *** 0.0000000000002274 *** #447 = IfcAlignmentSegment( .. ) - #454 = IfcAlignmentSegment( .. )",
+            [
+              447,
+              454
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (cant segments),  *** 0.0000000000000000 *** #454 = IfcAlignmentSegment( .. ) - #461 = IfcAlignmentSegment( .. )",
+            [
+              454,
+              461
+            ]
+          ],
+          [
+            "success",
+            "Distance between (continues 0th order) end of segment I and start of segment II (cant segments),  *** 0.0000000000002274 *** #461 = IfcAlignmentSegment( .. ) - #468 = IfcAlignmentSegment( .. )",
+            [
+              461,
+              468
+            ]
+          ]
+        ]
+      },
+      "subGroup_3_4": {
+        "status": "success",
+        "name": "Alignment horizontal tangential continuity",
+        "values": [
+          [
+            "success",
+            "Angle difference in degrees (continues 1st order) between end of segment I and start of segment II (horizontal segments),  *** 0.0000000000647338 *** #83 = IfcAlignmentSegment( .. ) - #91 = IfcAlignmentSegment( .. )",
+            [
+              83,
+              91
+            ]
+          ],
+          [
+            "success",
+            "Angle difference in degrees (continues 1st order) between end of segment I and start of segment II (horizontal segments),  *** 0.0000000000075824 *** #91 = IfcAlignmentSegment( .. ) - #99 = IfcAlignmentSegment( .. )",
+            [
+              91,
+              99
+            ]
+          ],
+          [
+            "success",
+            "Angle difference in degrees (continues 1st order) between end of segment I and start of segment II (horizontal segments),  *** 0.0000000000176966 *** #99 = IfcAlignmentSegment( .. ) - #107 = IfcAlignmentSegment( .. )",
+            [
+              99,
+              107
+            ]
+          ],
+          [
+            "success",
+            "Angle difference in degrees (continues 1st order) between end of segment I and start of segment II (horizontal segments),  *** 0.0000000004013860 *** #107 = IfcAlignmentSegment( .. ) - #115 = IfcAlignmentSegment( .. )",
+            [
+              107,
+              115
+            ]
+          ],
+          [
+            "success",
+            "Angle difference in degrees (continues 1st order) between end of segment I and start of segment II (horizontal segments),  *** 0.0000000003119170 *** #115 = IfcAlignmentSegment( .. ) - #123 = IfcAlignmentSegment( .. )",
+            [
+              115,
+              123
+            ]
+          ],
+          [
+            "success",
+            "Angle difference in degrees (continues 1st order) between end of segment I and start of segment II (horizontal segments),  *** 0.0000000000076524 *** #123 = IfcAlignmentSegment( .. ) - #131 = IfcAlignmentSegment( .. )",
+            [
+              123,
+              131
+            ]
+          ],
+          [
+            "success",
+            "Angle difference in degrees (continues 1st order) between end of segment I and start of segment II (horizontal segments),  *** 0.0000000000216755 *** #131 = IfcAlignmentSegment( .. ) - #139 = IfcAlignmentSegment( .. )",
+            [
+              131,
+              139
+            ]
+          ],
+          [
+            "success",
+            "Angle difference in degrees (continues 1st order) between end of segment I and start of segment II (horizontal segments),  *** 0.0000000001035779 *** #139 = IfcAlignmentSegment( .. ) - #147 = IfcAlignmentSegment( .. )",
+            [
+              139,
+              147
+            ]
+          ],
+          [
+            "success",
+            "Angle difference in degrees (continues 1st order) between end of segment I and start of segment II (horizontal segments),  *** 0.0000000000000000 *** #147 = IfcAlignmentSegment( .. ) - #155 = IfcAlignmentSegment( .. )",
+            [
+              147,
+              155
+            ]
+          ],
+          [
+            "success",
+            "Angle difference in degrees (continues 1st order) between end of segment I and start of segment II (horizontal segments),  *** 0.0000000000647338 *** #83 = IfcAlignmentSegment( .. ) - #91 = IfcAlignmentSegment( .. )",
+            [
+              83,
+              91
+            ]
+          ],
+          [
+            "success",
+            "Angle difference in degrees (continues 1st order) between end of segment I and start of segment II (horizontal segments),  *** 0.0000000000075824 *** #91 = IfcAlignmentSegment( .. ) - #99 = IfcAlignmentSegment( .. )",
+            [
+              91,
+              99
+            ]
+          ],
+          [
+            "success",
+            "Angle difference in degrees (continues 1st order) between end of segment I and start of segment II (horizontal segments),  *** 0.0000000000176966 *** #99 = IfcAlignmentSegment( .. ) - #107 = IfcAlignmentSegment( .. )",
+            [
+              99,
+              107
+            ]
+          ],
+          [
+            "success",
+            "Angle difference in degrees (continues 1st order) between end of segment I and start of segment II (horizontal segments),  *** 0.0000000004013860 *** #107 = IfcAlignmentSegment( .. ) - #115 = IfcAlignmentSegment( .. )",
+            [
+              107,
+              115
+            ]
+          ],
+          [
+            "success",
+            "Angle difference in degrees (continues 1st order) between end of segment I and start of segment II (horizontal segments),  *** 0.0000000003119170 *** #115 = IfcAlignmentSegment( .. ) - #123 = IfcAlignmentSegment( .. )",
+            [
+              115,
+              123
+            ]
+          ],
+          [
+            "success",
+            "Angle difference in degrees (continues 1st order) between end of segment I and start of segment II (horizontal segments),  *** 0.0000000000076524 *** #123 = IfcAlignmentSegment( .. ) - #131 = IfcAlignmentSegment( .. )",
+            [
+              123,
+              131
+            ]
+          ],
+          [
+            "success",
+            "Angle difference in degrees (continues 1st order) between end of segment I and start of segment II (horizontal segments),  *** 0.0000000000216755 *** #131 = IfcAlignmentSegment( .. ) - #139 = IfcAlignmentSegment( .. )",
+            [
+              131,
+              139
+            ]
+          ],
+          [
+            "success",
+            "Angle difference in degrees (continues 1st order) between end of segment I and start of segment II (horizontal segments),  *** 0.0000000001035779 *** #139 = IfcAlignmentSegment( .. ) - #147 = IfcAlignmentSegment( .. )",
+            [
+              139,
+              147
+            ]
+          ],
+          [
+            "success",
+            "Angle difference in degrees (continues 1st order) between end of segment I and start of segment II (horizontal segments),  *** 0.0000000000000000 *** #147 = IfcAlignmentSegment( .. ) - #155 = IfcAlignmentSegment( .. )",
+            [
+              147,
+              155
+            ]
+          ]
+        ]
+      },
+      "subGroup_3_5": {
+        "status": "success",
+        "name": "Alignment vertical tangential continuity",
+        "values": [
+          [
+            "success",
+            "Angle difference in degrees (continues 1st order) between end of segment I and start of segment II (vertical segments),  *** 0.0000000000000070 *** #273 = IfcAlignmentSegment( .. ) - #284 = IfcAlignmentSegment( .. )",
+            [
+              273,
+              284
+            ]
+          ],
+          [
+            "success",
+            "Angle difference in degrees (continues 1st order) between end of segment I and start of segment II (vertical segments),  *** 0.0000000000006954 *** #284 = IfcAlignmentSegment( .. ) - #295 = IfcAlignmentSegment( .. )",
+            [
+              284,
+              295
+            ]
+          ],
+          [
+            "success",
+            "Angle difference in degrees (continues 1st order) between end of segment I and start of segment II (vertical segments),  *** 0.0000000000005243 *** #295 = IfcAlignmentSegment( .. ) - #306 = IfcAlignmentSegment( .. )",
+            [
+              295,
+              306
+            ]
+          ],
+          [
+            "success",
+            "Angle difference in degrees (continues 1st order) between end of segment I and start of segment II (vertical segments),  *** 0.0000000000000140 *** #306 = IfcAlignmentSegment( .. ) - #317 = IfcAlignmentSegment( .. )",
+            [
+              306,
+              317
+            ]
+          ],
+          [
+            "success",
+            "Angle difference in degrees (continues 1st order) between end of segment I and start of segment II (vertical segments),  *** 0.0000000000000000 *** #317 = IfcAlignmentSegment( .. ) - #328 = IfcAlignmentSegment( .. )",
+            [
+              317,
+              328
+            ]
+          ],
+          [
+            "success",
+            "Angle difference in degrees (continues 1st order) between end of segment I and start of segment II (vertical segments),  *** 0.0000000000000070 *** #273 = IfcAlignmentSegment( .. ) - #284 = IfcAlignmentSegment( .. )",
+            [
+              273,
+              284
+            ]
+          ],
+          [
+            "success",
+            "Angle difference in degrees (continues 1st order) between end of segment I and start of segment II (vertical segments),  *** 0.0000000000006954 *** #284 = IfcAlignmentSegment( .. ) - #295 = IfcAlignmentSegment( .. )",
+            [
+              284,
+              295
+            ]
+          ],
+          [
+            "success",
+            "Angle difference in degrees (continues 1st order) between end of segment I and start of segment II (vertical segments),  *** 0.0000000000005243 *** #295 = IfcAlignmentSegment( .. ) - #306 = IfcAlignmentSegment( .. )",
+            [
+              295,
+              306
+            ]
+          ],
+          [
+            "success",
+            "Angle difference in degrees (continues 1st order) between end of segment I and start of segment II (vertical segments),  *** 0.0000000000000140 *** #306 = IfcAlignmentSegment( .. ) - #317 = IfcAlignmentSegment( .. )",
+            [
+              306,
+              317
+            ]
+          ],
+          [
+            "success",
+            "Angle difference in degrees (continues 1st order) between end of segment I and start of segment II (vertical segments),  *** 0.0000000000000000 *** #317 = IfcAlignmentSegment( .. ) - #328 = IfcAlignmentSegment( .. )",
+            [
+              317,
+              328
+            ]
+          ]
+        ]
+      },
+      "subGroup_3_6": {
+        "status": "success",
+        "name": "Alignment cant tangential continuity",
+        "values": [
+        ]
+      }
+    },
+    "group_4": {
+      "name": "Geometrical Content Issue",
+      "status": "failure",
+      "passed": "3 of 5 (60%)",
+      "timeInMilliSeconds": "10",
+      "subGroup_4_1": {
+        "status": "failure",
+        "name": "Alignment Issues",
+        "values": [
+          [
+            "failure",
+            "Found unexpected geometry for IfcAlignment there should be at least an IfcCompositeCurve reference - #60 = IfcAlignment( .. )",
+            [
+              60
+            ]
+          ],
+          [
+            "failure",
+            "Found unexpected geometry for Alignment (expected to be empty) - #71 = IfcAlignmentHorizontal( .. )",
+            [
+              71
+            ]
+          ],
+          [
+            "failure",
+            "Found unexpected geometry for Alignment (expected to be empty) - #260 = IfcAlignmentVertical( .. )",
+            [
+              260
+            ]
+          ],
+          [
+            "failure",
+            "Found unexpected geometry for Alignment (expected to be empty) - #396 = IfcAlignmentCant( .. )",
+            [
+              396
+            ]
+          ],
+          [
+            "failure",
+            "Found unexpected geometry for IfcAlignment there should be at least an IfcCompositeCurve reference - #60 = IfcAlignment( .. )",
+            [
+              60
+            ]
+          ],
+          [
+            "failure",
+            "Found unexpected geometry for Alignment (expected to be empty) - #71 = IfcAlignmentHorizontal( .. )",
+            [
+              71
+            ]
+          ],
+          [
+            "failure",
+            "Found unexpected geometry for Alignment (expected to be empty) - #260 = IfcAlignmentVertical( .. )",
+            [
+              260
+            ]
+          ],
+          [
+            "failure",
+            "Found unexpected geometry for Alignment (expected to be empty) - #396 = IfcAlignmentCant( .. )",
+            [
+              396
+            ]
+          ]
+        ]
+      },
+      "subGroup_4_2": {
+        "status": "success",
+        "name": "Horizontal Alignment Issues",
+        "values": [
+        ]
+      },
+      "subGroup_4_3": {
+        "status": "success",
+        "name": "Vertical Alignment Issues",
+        "values": [
+        ]
+      },
+      "subGroup_4_4": {
+        "status": "success",
+        "name": "Cant Alignment Issues",
+        "values": [
+        ]
+      },
+      "subGroup_4_5": {
+        "status": "failure",
+        "name": "Curve Segment Issues",
+        "values": [
+          [
+            "failure",
+            "IfcCurveSegment inconsistent with Business Logic attribute: SegmentStart - #187 = IfcCurveSegment( .. ), #107 = IfcAlignmentSegment( .. )",
+            [
+              187,
+              107
+            ]
+          ],
+          [
+            "failure",
+            "IfcCurveSegment inconsistent with Business Logic attribute: SegmentStart - #229 = IfcCurveSegment( .. ), #139 = IfcAlignmentSegment( .. )",
+            [
+              229,
+              139
+            ]
+          ],
+          [
+            "failure",
+            "IfcCurveSegment inconsistent with Business Logic attribute: SegmentLength - #480 = IfcCurveSegment( .. ), #419 = IfcAlignmentSegment( .. )",
+            [
+              480,
+              419
+            ]
+          ],
+          [
+            "failure",
+            "IfcCurveSegment inconsistent with Business Logic attribute: SegmentLength - #502 = IfcCurveSegment( .. ), #433 = IfcAlignmentSegment( .. )",
+            [
+              502,
+              433
+            ]
+          ],
+          [
+            "failure",
+            "IfcCurveSegment inconsistent with Business Logic attribute: SegmentLength - #524 = IfcCurveSegment( .. ), #447 = IfcAlignmentSegment( .. )",
+            [
+              524,
+              447
+            ]
+          ],
+          [
+            "failure",
+            "IfcCurveSegment inconsistent with Business Logic attribute: SegmentLength - #546 = IfcCurveSegment( .. ), #461 = IfcAlignmentSegment( .. )",
+            [
+              546,
+              461
+            ]
+          ],
+          [
+            "failure",
+            "IfcCurveSegment inconsistent with Business Logic attribute: SegmentStart - #187 = IfcCurveSegment( .. ), #107 = IfcAlignmentSegment( .. )",
+            [
+              187,
+              107
+            ]
+          ],
+          [
+            "failure",
+            "IfcCurveSegment inconsistent with Business Logic attribute: SegmentStart - #229 = IfcCurveSegment( .. ), #139 = IfcAlignmentSegment( .. )",
+            [
+              229,
+              139
+            ]
+          ],
+          [
+            "failure",
+            "IfcCurveSegment inconsistent with Business Logic attribute: SegmentLength - #480 = IfcCurveSegment( .. ), #419 = IfcAlignmentSegment( .. )",
+            [
+              480,
+              419
+            ]
+          ],
+          [
+            "failure",
+            "IfcCurveSegment inconsistent with Business Logic attribute: SegmentLength - #502 = IfcCurveSegment( .. ), #433 = IfcAlignmentSegment( .. )",
+            [
+              502,
+              433
+            ]
+          ],
+          [
+            "failure",
+            "IfcCurveSegment inconsistent with Business Logic attribute: SegmentLength - #524 = IfcCurveSegment( .. ), #447 = IfcAlignmentSegment( .. )",
+            [
+              524,
+              447
+            ]
+          ],
+          [
+            "failure",
+            "IfcCurveSegment inconsistent with Business Logic attribute: SegmentLength - #546 = IfcCurveSegment( .. ), #461 = IfcAlignmentSegment( .. )",
+            [
+              546,
+              461
+            ]
+          ]
+        ]
+      }
+    },
+    "group_5": {
+      "name": "Schema validation issues",
+      "status": "success",
+      "passed": "1 of 1 (100%)",
+      "timeInMilliSeconds": "10",
+      "subGroup_5_1": {
+        "status": "success",
+        "name": "Schema validation issues",
+        "values": [
+        ]
+      }
+    }
+  }
+}

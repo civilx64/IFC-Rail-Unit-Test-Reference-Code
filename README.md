@@ -6,3 +6,12 @@ This is the **utility repository** for the testing and validation process of the
 * EnrichIFC4x3: source for generating alignment geometry based on semantic information
 * AddIndexedPolyCurve: source for adding indexed polycurve (point list) for alignment geometry
 * alignment_testset: compiled applications with a set of test files that covers all different types of alignment segments.
+* alignmentconsistency: alignment checks similar to addCheck but with `json` output
+in place of `html`.
+
+## How to perform alignment consistency checks
+
+| alignmentconsistency
+| |-- x64
+|   |-- Release
+|       |-- runme.bat
